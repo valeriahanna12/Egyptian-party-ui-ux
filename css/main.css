@@ -1,0 +1,169 @@
+body{
+    overflow: hidden;
+}
+#loading{
+    position:fixed;
+    inset: 0;
+    z-index: 999999999999999999;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #09c;
+}
+/*******************************************************/
+.home{
+    background-image: url(../images/events-heavenly-header.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+.home .layer{
+    background-color: rgba(214, 46, 51, 0.6);
+    background-size: cover;
+    height: 100vh;
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column; */
+}
+.home .navbar{
+    position: relative;
+}
+.home .navbar .links{
+    position: relative;
+    background-color: #414658;
+    position: fixed;
+    top: 0;
+    left: -250px;
+    height: 100vh;
+    color: white;
+    /* padding: 50px; */
+    width: 250px;
+}
+.home .navbar .links i{
+    color: white;
+    font-size: 36px;
+    line-height: 51px;
+}
+.home .navbar .links a{
+    text-decoration: none;
+    color: white;
+    display: flex;
+    margin: 15px 0 ;
+    font-size: 25px;
+    line-height: 36px;
+    font-weight: 400;
+}
+.home .navbar .links .nav-link:hover{
+    color: rgba(214, 46, 51, 0.6);
+}
+.home .navbar .open{
+    position: absolute;
+    top: 290px;
+    left: 50px;
+}
+.home .navbar .open:hover , .home .navbar .links i{
+    cursor: pointer;
+}
+.home .navbar .open .nav-icon ,h3{
+    font-size: 30px;
+    line-height: 43px;
+    color: white;
+}
+.home .layer .title{
+    display: flex;
+    justify-content: center;
+    align-items:stretch;
+    text-align: center;
+    flex-direction: column;
+    height: 60vh;
+    color: white;
+}
+.home .layer .title h1{
+    font-size: 60px;
+    line-height: 66px;
+    font-weight: 500;
+}
+.home .layer .title h6{
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+}
+/*****************************************************/
+.singers{
+    background-color: #e68285;
+}
+.singers h2{
+    color: white;
+    cursor: pointer;
+}
+.parag{
+    background-color: #cccccc;
+    overflow: hidden;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    padding:0 5px;
+}
+/*****************************************************/
+.timer{
+    background-image: url(../images/invitation-2508607__340.jpg);
+    background-size: cover;
+    height:60vh;
+}
+.timer .layer{
+    background-color: rgba(214, 46, 51, 0.6);
+    background-size: cover;
+    height: 60vh;
+}
+.timer .layer .boxDays ,.boxHours ,.boxMinutes ,.boxSecounds{
+    border: 1px white solid;
+    height: 150px;
+    padding: 50px 0;
+}
+/******************************************************/
+.contact h2{
+    font-size: 35px;
+    line-height: 39px;
+    color: #444444;
+    font-weight: 700;
+}
+.contact h5{
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: 700;
+    color: #444444;
+}
+.contact p , span{
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 500;
+    color: #777777;
+}
+.contact .contact-icon{
+    font-size: 16px;
+    line-height: 16px;
+    color: #777777;
+    padding-right: 15px;
+}
+.contact .email{
+    color: #d62e33;
+}
+.contact .icon{
+    font-size: 19px;
+    line-height: 42px;
+    color: #777777;
+    border: 1px solid #777777;
+    padding: 0 13px;
+}
+.contact .icon:hover{
+    background-color: #d62e33;
+    color: white;
+    border: 1px solid #d62e33;
+    cursor: pointer;
+}
+.form-control:focus{
+    border: 2px solid #a099ff;
+    box-shadow: 0 0 7px #a099ff;
+}
